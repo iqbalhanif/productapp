@@ -35,3 +35,19 @@ contoh outputnya adalah:
 
 # API 2: Get Product by Code
 API ini digunakan untuk mengakses data produk berdasarkan kode produk. API ini diakses dengan metode POST dengan request URL sbb: 
+
+http://127.0.0.1:5000/product
+
+contoh inputnya adalah sbb:
+{
+    "productCode" : "S10_1678"
+}
+
+maka outputnya adalah sbb:
+{
+    "productCode": "S10_1678",
+    "productName": "1969 Harley Davidson Ultimate Chopper",
+    "productLine": "Motorcycles",
+    "productScale": "1:10",
+    "productVendor": "Min Lin Diecast"
+}
