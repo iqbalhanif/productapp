@@ -1,16 +1,16 @@
 # productapp
 Aplikasi ini digunakan untuk mengakses database produk diecast mobil, yang terdiri dari beberapa kolom yaitu:
 
-productCode = ID produk
-productName = Nama produk
-productLine = Tipe produk
-productScale = Ukuran/skala produk
-productVendor = Produsen produk
+productCode = ID produk <br />
+productName = Nama produk <br />
+productLine = Tipe produk <br />
+productScale = Ukuran/skala produk <br />
+productVendor = Produsen produk <br />
 
 Untuk sample datanya bisa diakses di products_data.csv dan ERD dari RDBMS bisa dilihat di 
 Aplikasi dibangun dengan menggunakan bahasa pemrograman python, sistem RDBMS (MySQL), serta Flask untuk framework API nya 
 
-#API 1: Get Products
+# API 1: Get Products
 API ini digunakan untuk mengakses segala produk yang ada di table products. API ini diakses dengan metode GET dengan request URL sbb: 
 
 http://127.0.0.1:5000/products
@@ -32,3 +32,6 @@ contoh outputnya adalah:
         "productVendor": "Classic Metal Creations"
     }
 ]
+
+# API 2: Get Product by Code
+API ini digunakan untuk mengakses data produk berdasarkan kode produk. API ini diakses dengan metode POST dengan request URL sbb: 
