@@ -51,3 +51,18 @@ maka outputnya adalah sbb:
     "productScale": "1:10",
     "productVendor": "Min Lin Diecast"
 }
+
+# API 3: Insert Product
+API ini digunakan untuk menambahkan data ke tabel products. API ini diakses dengan metode POST dengan request URL sbb: 
+
+http://127.0.0.1:5000/insertproduct
+
+# API 4: Update Product by Code
+API ini digunakan untuk mengupdate data produk berdasarkan kode produk. API ini diakses dengan metode POST dengan request URL sbb: 
+
+http://127.0.0.1:5000/updateproduct
+
+# API 5: Delete Product by Code
+API ini digunakan untuk menghapus data produk berdasarkan kode produk. API ini diakses dengan metode POST dengan request URL sbb: 
+
+http://127.0.0.1:5000/deleteproduct
