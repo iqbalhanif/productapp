@@ -7,7 +7,7 @@ productLine = Tipe produk <br />
 productScale = Ukuran/skala produk <br />
 productVendor = Produsen produk <br />
 
-Untuk sample datanya bisa diakses di products_data.csv dan ERD dari RDBMS bisa dilihat di 
+Untuk sample datanya bisa diakses di products_data.csv dan ERD dari RDBMS bisa dilihat di products_erd.png
 Aplikasi dibangun dengan menggunakan bahasa pemrograman python, sistem RDBMS (MySQL), serta Flask untuk framework API nya 
 
 # API 1: Get Products
